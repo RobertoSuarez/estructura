@@ -1,5 +1,5 @@
 """
-        -Roberto Suárez
+        - Roberto Suárez
         cunatificadores existencial ∃ x, y ...
         Existe al menos un x, y ...
 """
@@ -32,11 +32,6 @@ def es_divisible(x, y):
     if(x % y == 0):
         return True
     return False
-
-def es_mayor(x,y):
-        if (x >= y):
-                return True
-        return False
 
 def P(dx,dy):
         for x in dx:
