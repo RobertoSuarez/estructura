@@ -1,10 +1,11 @@
 """
 		existe - para todo
         existe al menos un - para todo
-        existe al menos una x en Dx tal que P(x,y) es verdadera para toda "y" en Dy     
+        existe al menos una x en Dx tal que P(x,y) es verdadera para toda "y" en Dy 
+        ∃x, ∀y | x % y == 0    
 """
 
-# func que verifica se x es divible para y.
+# func que verifica si x es divible para y.
 def es_divisible(x, y):
     if(x % y == 0):
         return True
