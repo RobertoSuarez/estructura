@@ -25,6 +25,6 @@ def P(dx,dy):
         return False
 
 d1 = [2,3,5,16]		# Discurso uno 
-d2 = [2,4]			# discruso dos
+d2 = [2,4]		# discruso dos
 
 print(P(d1, d2))
